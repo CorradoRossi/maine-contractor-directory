@@ -44,7 +44,7 @@ export function Menu() {
       </ScrollArea>
       <Separator className="my-4" />
       <a
-        href="https://github.com/pontusab/cursor.directory"
+        href="https://github.com/CorradoRossi/maine-contractor-directory"
         target="_blank"
         rel="noreferrer"
       >

@@ -1,13 +1,14 @@
-export const landscaperRules = [
+export const hvacTechnicianRules = [
   {
-    tags: ["Landscapers"],
+    tags: ["HVAC Technicians"],
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
     content: `
-    https://danclemetson.com
-    danclemetson@gmail.com
-    207-555-1234
+    Website: https://danclemetson.com
+    Email: danclemetson@gmail.com
+    Phone: 207-555-1234
+    Area serviced: Midcoast
     `,
     author: {
       name: "Rossi Meacham",
@@ -16,14 +17,15 @@ export const landscaperRules = [
     },
   },
   {
-    tags: ["Landscapers"],
+    tags: ["HVAC Technicians"],
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
     content: `
-    https://danclemetson.com
-    danclemetson@gmail.com
-    207-555-1234
+    Website: https://danclemetson.com
+    Email: danclemetson@gmail.com
+    Phone: 207-555-1234
+    Area serviced: Midcoast
     `,
     author: {
       name: "Rossi Meacham",
@@ -32,14 +34,15 @@ export const landscaperRules = [
     },
   },
   {
-    tags: ["Landscapers"],
+    tags: ["HVAC Technicians"],
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
     content: `
-    https://danclemetson.com
-    danclemetson@gmail.com
-    207-555-1234
+    Website: https://danclemetson.com
+    Email: danclemetson@gmail.com
+    Phone: 207-555-1234
+    Area serviced: Midcoast
     `,
     author: {
       name: "Rossi Meacham",
@@ -48,14 +51,15 @@ export const landscaperRules = [
     },
   },
   {
-    tags: ["Landscapers"],
+    tags: ["HVAC Technicians"],
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
     content: `
-    https://danclemetson.com
-    danclemetson@gmail.com
-    207-555-1234
+    Website: https://danclemetson.com
+    Email: danclemetson@gmail.com
+    Phone: 207-555-1234
+    Area serviced: Midcoast
     `,
     author: {
       name: "Rossi Meacham",
