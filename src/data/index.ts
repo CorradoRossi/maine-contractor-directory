@@ -47,6 +47,6 @@ export function getSections() {
     .map((tag) => ({
       tag,
       rules: rules.filter((rule) => rule.tags.includes(tag)),
-    }))
-    .sort((a, b) => b.rules.length - a.rules.length);
+    }));
+    //.sort((a, b) => b.rules.length - a.rules.length);
 }

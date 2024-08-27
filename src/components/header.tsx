@@ -18,10 +18,13 @@ export function Header() {
       </Link>
 
       <div className="flex items-center gap-4">
+        {/*
         <div className="hidden md:block">
           <SubscribeForm group="newsletter" placeholder="Get latest updates" />
         </div>
+        */}
 
+        {/*
         <Link
           href="/live"
           className="flex items-center gap-2 text-sm font-medium"
@@ -34,10 +37,13 @@ export function Header() {
           </div>
           <span>Live</span>
         </Link>
+        */}
 
+        {/*
         <Link href="/learn" className="text-sm font-medium">
           Learn
         </Link>
+        */}
 
         <Dialog>
           <DialogTrigger asChild>
@@ -60,10 +66,13 @@ export function Header() {
               I decided to build this directory in the hopes that other folks may find it useful.
               <br />
               <br />
-              If you have any questions or concerns feel free to reach out to me at rossi@pixelpunk.design
+              If you have any questions or concerns or would like to add a contractor to the list you can reach me at {" "}
+              <a href="mailto:rossi@pixelpunk.design" target="_blank" className="underline">
+                rossi@pixelpunk.design
+              </a>
               <br />
               <br />
-              This directory was forked from this open source template generously provided by Midday {" "}
+              This directory was forked from an open source template generously provided by Midday {" "}
               <a href="https://github.com/pontusab/cursor.directory" className="underline">
                 available here
               </a>{" "}
@@ -71,17 +80,17 @@ export function Header() {
               <br />
               <br />
               <br />
-              <a href="https://github.com/pontusab/cursor.directory">
+              <a href="mailto:rossi@pixelpunk.design" target="_blank">
                 <Button
                   className="w-full bg-white text-black rounded-full"
                   variant="outline"
                 >
-                  Submit
+                  Email Me
                 </Button>
               </a>
               <div className="flex items-center space-x-1 mt-8 justify-center">
-                <a href="https://pixelpunk.design" target="_blank">
-                Made by PixelPunk Design
+                <a href="https://pixelpunk.design" className="underline" target="_blank">
+                  Made by PixelPunk Design
                 </a>
               </div>
             </DialogDescription>
