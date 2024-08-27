@@ -4,6 +4,7 @@ export const generalContractorRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+    email: "danclemetson@gmail.com",
     content: `
     Name: Dan Clemetson Contracting
     Email: danclemetson@gmail.com
@@ -22,6 +23,7 @@ export const generalContractorRules = [
     title: "Charly Rogers",
     libs: [],
     slug: "charly-rogers",
+    email: "charlyrogers@gmail.com",
     content: `
     Name: Charly Rogers
     Email: charlyrogers@gmail.com
@@ -40,6 +42,7 @@ export const generalContractorRules = [
     title: "Bilbo Baggins",
     libs: [],
     slug: "bilbo-baggins",
+    email: "bilbo@gmail.com",
     content: `
     Name: Bilbo's General Contracting
     Website: https://bilbobaggins.com

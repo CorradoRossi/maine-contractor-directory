@@ -4,6 +4,7 @@ export const landscaperRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     https://danclemetson.com
     danclemetson@gmail.com
@@ -20,6 +21,7 @@ export const landscaperRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     https://danclemetson.com
     danclemetson@gmail.com
@@ -36,6 +38,7 @@ export const landscaperRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     https://danclemetson.com
     danclemetson@gmail.com
@@ -52,6 +55,7 @@ export const landscaperRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     https://danclemetson.com
     danclemetson@gmail.com

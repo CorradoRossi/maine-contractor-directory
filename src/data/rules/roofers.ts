@@ -4,6 +4,7 @@ export const rooferRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     Website: https://danclemetson.com
     Email: danclemetson@gmail.com
@@ -21,6 +22,7 @@ export const rooferRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     Website: https://danclemetson.com
     Email: danclemetson@gmail.com
@@ -38,6 +40,7 @@ export const rooferRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     Website: https://danclemetson.com
     Email: danclemetson@gmail.com
@@ -55,6 +58,7 @@ export const rooferRules = [
     title: "Dan Clemetson",
     libs: [],
     slug: "dan-clemetson",
+email: "dannyboy@gmail.com",
     content: `
     Website: https://danclemetson.com
     Email: danclemetson@gmail.com

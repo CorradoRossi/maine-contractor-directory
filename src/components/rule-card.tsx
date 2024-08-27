@@ -10,6 +10,7 @@ export type Rule = {
   content: string;
   title?: string;
   slug: string;
+  email: string;
   author: {
     name: string;
     url: string;
@@ -26,7 +27,7 @@ export function RuleCard({ rule, isPage }: { rule: Rule; isPage?: boolean }) {
           isPage && "opacity-100",
         )}
       >
-        <CopyButton content={rule.content} />
+        <CopyButton email={rule.email} />
         <Link href={`/${rule.slug}`}>
           <ScrollArea className="h-full">
             <code className="text-sm block pr-3">{rule.content}</code>

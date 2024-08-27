@@ -4,11 +4,11 @@ import { Check, Copy } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
-export function CopyButton({ content }: { content: string }) {
+export function CopyButton({ email }: { email: string }) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(content);
+    navigator.clipboard.writeText(email);
     setCopied(true);
     toast(
       "Copied to clipboard.",
@@ -26,7 +26,7 @@ export function CopyButton({ content }: { content: string }) {
       type="button"
     >
       {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-      <span>{copied ? "Copied" : "Copy Info"}</span>
+      <span>{copied ? "Copied" : "Copy Email"}</span>
     </button>
   );
 }
