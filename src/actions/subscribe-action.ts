@@ -4,7 +4,7 @@ export async function subscribeAction(formData: FormData, userGroup: string) {
   const email = formData.get("email") as string;
 
   const res = await fetch(
-    "https://app.loops.so/api/newsletter-form/cm0bd20vj03imyjzv74y1crnb",
+    "<my newsletter url>",
     {
       method: "POST",
       headers: {
