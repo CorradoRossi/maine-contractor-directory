@@ -15,11 +15,11 @@ export function Banner() {
 
   return (
     <a
-      href="https://midday.ai?utm_source=directory"
+      href="https://pixelpunk.design"
       target="_blank"
       rel="noreferrer"
     >
-      <div className="fixed overflow-hidden animate-in slide-in-from-bottom-full z-50 bottom-2 md:bottom-4 right-2 md:right-4 w-[calc(100vw-16px)] max-w-[350px] border border-border p-4 transition-all bg-background h-[88px] group">
+      <div className="fixed overflow-hidden animate-in slide-in-from-bottom-full z-50 bottom-2 md:bottom-4 right-2 md:right-4 w-[calc(100vw-16px)] max-w-[350px] border border-border p-4 transition-all bg-background h-[106px] group">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width={50}
@@ -38,11 +38,10 @@ export function Banner() {
         <div className="flex justify-between">
           <div className="flex flex-col space-y-0.5 pl-[40px]">
             <div className="flex space-x-2 items-center">
-              <span className="text-sm font-medium">Made by Midday</span>
+              <span className="text-sm font-medium">Made by Pixelpunk Design</span>
             </div>
             <p className="text-xs text-[#878787]">
-              An all-in-one tool for freelancers to monitor financial health,
-              time-track, and send invoices. ↗
+              Get a website for your business designed deployed and hosted with PixelPunk, a Maine based web development studio. ↗
             </p>
           </div>
 

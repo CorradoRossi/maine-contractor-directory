@@ -26,7 +26,7 @@ export function CopyButton({ content }: { content: string }) {
       type="button"
     >
       {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-      <span>{copied ? "Copied" : "Copy rule"}</span>
+      <span>{copied ? "Copied" : "Copy email"}</span>
     </button>
   );
 }
