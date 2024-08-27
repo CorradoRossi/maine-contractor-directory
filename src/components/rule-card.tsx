@@ -36,7 +36,7 @@ export function RuleCard({ rule, isPage }: { rule: Rule; isPage?: boolean }) {
 
       <CardHeader className="p-0 space-y-1">
         <div className="flex items-center justify-between">
-          <CardTitle className="text-sm">{rule.author.name}</CardTitle>
+          <CardTitle className="text-xs">{`Added by: ` + "\xa0" + rule.author.name}</CardTitle>
           <Avatar className="size-6">
             <a href={rule.author.url} target="_blank" rel="noopener noreferrer">
               <AvatarImage src={rule.author.avatar} alt={rule.author.name} />
