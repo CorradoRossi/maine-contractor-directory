@@ -1,20 +1,10 @@
 ![hero](image.png)
 
-## How to submit a new rule
+## How to submit a new contractor
 
 * Fork the repo
-* Add a new rule to `src/data/index.ts`
+* Add a new contractor to `src/data/index.ts`
 * Create a PR
-
-## Recognition
-
-<a href="https://news.ycombinator.com/item?id=41346156">
-  <img
-    style="width: 250px; height: 54px;" width="250" height="54"
-    alt="Featured on Hacker News"
-    src="https://hackernews-badge.vercel.app/api?id=41346156"
-  />
-</a>
 
 ## Getting Started
 
