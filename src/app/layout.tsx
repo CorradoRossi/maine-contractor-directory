@@ -12,8 +12,8 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
-  title: "Cursor Directory",
-  description: "Find the best cursor rules for your framework and language",
+  title: "Maine Contractor Directory",
+  description: "Find the best local contractors in Maine",
 };
 
 export const viewport = {
