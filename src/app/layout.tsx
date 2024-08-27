@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
-  title: "Maine Contractor Directory",
+  title: "Belfast Maine Contractor Directory",
   description: "Find the best local contractors in Maine",
 };
 

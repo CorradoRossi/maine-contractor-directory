@@ -5,10 +5,11 @@ export const generalContractorRules = [
     libs: [],
     slug: "dan-clemetson",
     content: `
-    Website: https://danclemetson.com
+    Name: Dan Clemetson Contracting
     Email: danclemetson@gmail.com
     Phone: 207-555-1234
-    Area serviced: Midcoast
+    Website: https://danclemetson.com
+    Area: Belfast, Midcoast
     `,
     author: {
       name: "Rossi Meacham",
@@ -18,36 +19,38 @@ export const generalContractorRules = [
   },
   {
     tags: ["General Contractors"],
-    title: "Dan Clemetson",
+    title: "Charly Rogers",
     libs: [],
-    slug: "dan-clemetson",
+    slug: "charly-rogers",
     content: `
-    Website: https://danclemetson.com
-    Email: danclemetson@gmail.com
-    Phone: 207-555-1234
-    Area serviced: Midcoast
+    Name: Charly Rogers
+    Email: charlyrogers@gmail.com
+    Phone: 207-555-2345
+    Website: https://charlyrogers.com
+    Area: Belfast, Midcoast
     `,
     author: {
-      name: "Rossi Meacham",
-      url: "https://github.com/CorradoRossi",
-      avatar: "https://avatars.githubusercontent.com/u/3724143?v=4",
+      name: "Yan Code",
+      url: "https://github.com/yanCode",
+      avatar: "https://avatars.githubusercontent.com/u/2328124?v=4",
     },
   },
   {
     tags: ["General Contractors"],
-    title: "Dan Clemetson",
+    title: "Bilbo Baggins",
     libs: [],
-    slug: "dan-clemetson",
+    slug: "bilbo-baggins",
     content: `
-    Website: https://danclemetson.com
-    Email: danclemetson@gmail.com
-    Phone: 207-555-1234
-    Area serviced: Midcoast
+    Name: Bilbo's General Contracting
+    Website: https://bilbobaggins.com
+    Email: bilbo@gmail.com
+    Phone: 207-555-3456
+    Area: Midcoast
     `,
     author: {
-      name: "Rossi Meacham",
-      url: "https://github.com/CorradoRossi",
-      avatar: "https://avatars.githubusercontent.com/u/3724143?v=4",
+      name: "Pontius Pilate",
+      url: "https://github.com/pontusab",
+      avatar: "https://avatars.githubusercontent.com/u/655158?v=4",
     },
   },
   {
