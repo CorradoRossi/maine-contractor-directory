@@ -10,7 +10,12 @@ export type Rule = {
   content: string;
   title?: string;
   slug: string;
+  name: string;
   email: string;
+  phone: string;
+  website: string;
+  area: string;
+  about: string;
   author: {
     name: string;
     url: string;
@@ -23,14 +28,38 @@ export function RuleCard({ rule, isPage }: { rule: Rule; isPage?: boolean }) {
     <Card className="bg-background p-4 max-h-[calc(100vh-8rem)] aspect-square flex flex-col">
       <CardContent
         className={cn(
-          "bg-card h-full mb-2 font-mono p-4 pr-1 text-sm opacity-50 hover:opacity-100 transition-opacity group relative flex-grow",
+          "bg-card h-full mb-2 font-mono p-4 pr-1 text-sm opacity-100 hover:opacity-80 transition-opacity group relative flex-grow",
           isPage && "opacity-100",
         )}
       >
-        <CopyButton email={rule.email} />
+        {isPage ? <CopyButton email={rule.email} /> : ""}
         <Link href={`/${rule.slug}`}>
           <ScrollArea className="h-full">
-            <code className="text-sm block pr-3">{rule.content}</code>
+            <div className="text-sm block pr-3">
+              <strong>Name:{" "}</strong>
+              {rule.name}
+            </div>
+            <div className="text-sm block pr-3">
+              <strong>Email:{" "}</strong>
+              {rule.email}
+            </div>
+            <div className="text-sm block pr-3">
+              <strong>Phone:{" "}</strong>
+              {rule.phone}
+            </div>
+            <div className="text-sm block pr-3">
+              <strong>Website:{" "}</strong>
+              {rule.website}
+            </div>
+            <div className="text-sm block pr-3">
+              <strong>Area:{" "}</strong>
+              {rule.area}
+            </div>
+            <div className="text-sm block pr-3">
+              <strong>About:{" "}</strong>
+              {rule.about}
+            </div>
+            <div className="text-sm block pr-3">{rule.content}</div>
           </ScrollArea>
         </Link>
       </CardContent>
